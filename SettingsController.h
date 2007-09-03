@@ -2,8 +2,8 @@
 //  SettingsController.h
 //  RandomWeb
 //
-//  Created by g4b3 on 2/8/05.
-//  Copyright 2005 Cellar Door Software. All rights reserved.
+//  Created by Gabriel Handford on 2/8/05.
+//  Copyright 2005 Gabriel Handford. All rights reserved.
 //
 
 #import <Cocoa/Cocoa.h>

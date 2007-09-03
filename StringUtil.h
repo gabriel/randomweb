@@ -2,8 +2,8 @@
 //  StringUtil.h
 //  RandomWeb
 //
-//  Created by g4b3 on Wed Sep 08 2004.
-//  Copyright (c) 2004 Cellar Door Software. All rights reserved.
+//  Created by Gabriel Handford on Wed Sep 08 2004.
+//  Copyright 2004 Gabriel Handford. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>

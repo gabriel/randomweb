@@ -2,8 +2,8 @@
 //  GoogleImageQuery.h
 //  RandomWeb
 //
-//  Created by g4b3 on Tue Aug 24 2004.
-//  Copyright (c) 2004 Cellar Door Software. All rights reserved.
+//  Created by Gabriel Handford on Tue Aug 24 2004.
+//  Copyright 2004 Gabriel Handford. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>

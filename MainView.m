@@ -2,8 +2,8 @@
 //  MainView.m
 //  RandomWeb
 //
-//  Created by g4b3 on Mon Jun 21 2004.
-//  Copyright (c) 2004 Cellar Door Software. All rights reserved.
+//  Created by Gabriel Handford on Mon Jun 21 2004.
+//  Copyright 2004 Gabriel Handford. All rights reserved.
 //
 
 #import "MainView.h"
@@ -40,13 +40,6 @@
 	RWLog(@"Min image count: %d", [[RWOptions sharedInstance] getMinImageCount]);
 	
 	[super startAnimation];
-	
-	/**
-	if (![self isPreview]) {
-		RWLog(@"Pinging cellardoorsw.com");
-		[self pingCellarDoor];
-	}
-	*/
 }
 
 -(void) stopAnimation {
@@ -233,11 +226,6 @@
 	else status = NULL;
 
 	[self setNeedsDisplay:YES];
-}
-
--(void) pingCellarDoor {
-	NSURL *url = [NSURL URLWithString:@"http://www.cellardoorsw.com/rwping.php"];
-	[url resourceDataUsingCache:NO];
 }
 
 -(BOOL)hasConfigureSheet {

@@ -2,8 +2,8 @@
 //  ScreenSaverMainView.h
 //  RandomWeb
 //
-//  Created by g4b3 on 5/21/05.
-//  Copyright 2005 Cellar Door Software. All rights reserved.
+//  Created by Gabriel Handford on 5/21/05.
+//  Copyright 2005 Gabriel Handford. All rights reserved.
 //
 
 #import <Cocoa/Cocoa.h>
