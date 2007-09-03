@@ -1,0 +1,10 @@
+Validate advanced settings.
+Fix iTunes loading.
+Windowed version.
+Interact while running.
+Setting to limit # of images / per item.
+Crazy mode.
+
+Width X Height -> Long side vs. Short side
+
+Tiling, and mosaicing..

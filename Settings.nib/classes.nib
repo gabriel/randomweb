@@ -1,0 +1,67 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {cancelPressed = id; okPressed = id; }; 
+            CLASS = AddSearchItem; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                helpLbl = id; 
+                keywordTF = id; 
+                minSizeCB = id; 
+                searchTypeCB = id; 
+                window = id; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            CLASS = AdvSettingsDataSource; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {longDescView = id; outlineView = NSOutlineView; safeSearch = id; }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            CLASS = InfoDataSource; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {imagesDir = id; infoTable = id; totalCountLbl = id; totalSizeLbl = id; }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {myAction = id; }; 
+            CLASS = NSTableColumn; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {
+                addItemPressed = id; 
+                cancelPressed = id; 
+                disableAllPressed = id; 
+                enableAllPressed = id; 
+                okPressed = id; 
+                refreshInfoPressed = id; 
+                removeItemPressed = id; 
+                showWindow = id; 
+            }; 
+            CLASS = SettingsController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                aboutWebView = id; 
+                addItemButton = id; 
+                addSearchWindow = id; 
+                addSettingsController = id; 
+                advSettingsController = id; 
+                cancelButton = id; 
+                helpLbl = id; 
+                infoSettingsController = id; 
+                itemsTable = id; 
+                removeItemButton = id; 
+                saveButton = id; 
+                versionLbl = id; 
+                window = id; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}

@@ -1,0 +1,105 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            CLASS = IntegerNumberFilter; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSNumberFormatter; 
+        }, 
+        {
+            ACTIONS = {
+                addIgnoreHostPressed = id; 
+                addPhrasePressed = id; 
+                addSitePressed = id; 
+                cancelPressed = id; 
+                delIgnoreHostPressed = id; 
+                delPhrasePressed = id; 
+                delSitePressed = id; 
+                okPressed = id; 
+                showWindow = id; 
+            }; 
+            CLASS = OptionsController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                aboutVersion = id; 
+                cacheDirSizeMB = id; 
+                cacheDirSizeMBStepper = id; 
+                directory = id; 
+                expireDays = id; 
+                expireDaysStepper = id; 
+                fadeAmount = id; 
+                fadeAmountStepper = id; 
+                fadeEnabled = id; 
+                focusCameraPhoto = id; 
+                focusCameraPhrase = id; 
+                focusCameraSite = id; 
+                ignoreHostsAddButton = id; 
+                ignoreHostsAddEntry = id; 
+                ignoreHostsDelButton = id; 
+                ignoreHostsTable = id; 
+                imageInterval = id; 
+                imageIntervalStepper = id; 
+                imagesPerSearch = id; 
+                imagesPerSearchStepper = id; 
+                infoCacheSizeBar = id; 
+                infoCacheSizeLbl = id; 
+                infoCacheSizeMax = id; 
+                infoCacheSizePercent = id; 
+                infoDir = id; 
+                infoNumImages = id; 
+                infoPhraseCacheSizeBar = id; 
+                infoPhraseCacheSizeLbl = id; 
+                infoPhraseCacheSizeMax = id; 
+                infoPhraseCacheSizePercent = id; 
+                infoPhraseDir = id; 
+                infoPhraseNumImages = id; 
+                infoSiteCacheSizeBar = id; 
+                infoSiteCacheSizeLbl = id; 
+                infoSiteCacheSizeMax = id; 
+                infoSiteCacheSizePercent = id; 
+                infoSiteDir = id; 
+                infoSiteNumImages = id; 
+                minHeightPhoto = id; 
+                minHeightPhotoStepper = id; 
+                minHeightPhrase = id; 
+                minHeightPhraseStepper = id; 
+                minHeightSite = id; 
+                minHeightSiteStepper = id; 
+                minImageCount = id; 
+                minImageCountStepper = id; 
+                minWidthPhoto = id; 
+                minWidthPhotoStepper = id; 
+                minWidthPhrase = id; 
+                minWidthPhraseStepper = id; 
+                minWidthSite = id; 
+                minWidthSiteStepper = id; 
+                phraseSelectMode = id; 
+                phraseSelected = id; 
+                phrasesAddButton = id; 
+                phrasesAddEntry = id; 
+                phrasesDelButton = id; 
+                phrasesTable = id; 
+                randomPhotoEnabled = id; 
+                randomPhraseEnabled = id; 
+                randomSiteEnabled = id; 
+                safeSearch = id; 
+                searchInterval = id; 
+                searchIntervalStepper = id; 
+                showFileName = id; 
+                showStatus = id; 
+                siteSelectMode = id; 
+                siteSelected = id; 
+                sitesAddButton = id; 
+                sitesAddEntry = id; 
+                sitesDelButton = id; 
+                sitesTable = id; 
+                socketTimeout = id; 
+                socketTimeoutStepper = id; 
+                window = id; 
+                zoomEnabled = id; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}
