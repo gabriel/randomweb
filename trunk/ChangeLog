@@ -1,0 +1,35 @@
+1.3 to 1.3.1
+- Fixed a couple bugs in the downloading when images already exist
+- Fixed possible crash when screensaver is exiting
+
+1.2c to 1.3
+- Added location search
+- Added iTunes artist search
+- Digital photo search now stores in a sub directory
+- Refactored lots of the threading code
+- Tons of bug fixes
+
+1.2b to 1.2c
+- Fixed bug where if you are at the maximum cache size it would only delete older entries from the Digial Photo Search
+- Fixed bug where the search enabled setting was using the zoom enabled setting.
+
+1.2 to 1.2b
+- Fixed possible crash when in System Preferences
+
+
+1.0b3 to 1.0b4
+- While downloading saves to a temporary file and then moves it on completion
+- Cleaned up the code a bunch and refactored some non-thread-safe stuff (ImageCacheDirectory)
+
+1.0b2 to 1.0b3
+- Used native screen saver randomizer (which is automatically seeded)
+- Parse image size before downloading, and downloads large images first (does not download images that are below minimum size)
+- Fixed bugs in Options panel not reading preferences correctly for 'Socket Timeout' and 'Max Images Per Search'
+- Removed Image Size search parameters (XXLarge,XLarge,Large,Medium,Small), which doesn't really add any benefit to the search results
+- Image files are saved with the following algorithm: http://www.test.com/dir/test.jpg -> www.test.com--dir--test.jpg
+- Cleaned up the timeout code
+- Fixed bug where 0 search results would cause searches not to happen anymore
+- Search interval is now specified in seconds instead of minutes
+
+1.0b1 to 1.0b2:
+- Fixed crash of System Preferences when interrupting screen saver during search phase
