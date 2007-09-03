@@ -2,8 +2,8 @@
 //  RWViewItem.m
 //  RandomWeb
 //
-//  Created by g4b3 on 11/22/04.
-//  Copyright 2004 Cellar Door Software. All rights reserved.
+//  Created by Gabriel Handford on 11/22/04.
+//  Copyright 2004 Gabriel Handford. All rights reserved.
 //
 
 #import "RWViewItem.h"

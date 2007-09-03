@@ -2,8 +2,8 @@
 //  GoogleSearchResult.m
 //  RandomWeb
 //
-//  Created by g4b3 on Tue Sep 28 2004.
-//  Copyright (c) 2004 Cellar Door Software. All rights reserved.
+//  Created by Gabriel Handford on Tue Sep 28 2004.
+//  Copyright 2004 Gabriel Handford. All rights reserved.
 //
 
 #import "GoogleSearchResult.h"
