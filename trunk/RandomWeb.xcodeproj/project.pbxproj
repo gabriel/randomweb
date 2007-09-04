@@ -943,7 +943,7 @@
 				);
 				GCC_WARN_ABOUT_POINTER_SIGNEDNESS = NO;
 				INFOPLIST_FILE = "RandomWeb-Info.plist";
-				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Screen Savers";
+				INSTALL_PATH = "/Library/Screen Savers";
 				LIBRARY_STYLE = BUNDLE;
 				OTHER_CFLAGS = "";
 				OTHER_CPLUSPLUSFLAGS = "";
@@ -982,7 +982,7 @@
 				);
 				GCC_WARN_ABOUT_POINTER_SIGNEDNESS = NO;
 				INFOPLIST_FILE = "RandomWeb-Info.plist";
-				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Screen Savers";
+				INSTALL_PATH = "/Library/Screen Savers";
 				LIBRARY_STYLE = BUNDLE;
 				OTHER_CFLAGS = "";
 				OTHER_CPLUSPLUSFLAGS = "";
@@ -1020,7 +1020,7 @@
 				);
 				GCC_WARN_ABOUT_POINTER_SIGNEDNESS = NO;
 				INFOPLIST_FILE = "RandomWeb-Info.plist";
-				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Screen Savers";
+				INSTALL_PATH = "/Library/Screen Savers";
 				LIBRARY_STYLE = BUNDLE;
 				OTHER_CFLAGS = "";
 				OTHER_CPLUSPLUSFLAGS = "";
