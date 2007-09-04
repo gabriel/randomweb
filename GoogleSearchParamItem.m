@@ -255,7 +255,9 @@ static NSString *DEFAULT_SEARCH_SIZE_STEP3 = nil;
 	NSString* keyword = [dict objectForKey:@"Keyword"];
 	NSString* minSize = [dict objectForKey:@"MinSize"];
 	int startingPosition = [[dict objectForKey:@"StartingPosition"] intValue];
-	NSString* searchSize = [dict objectForKey:@"SearchSize"];
+	// NZ: Removed searchSize because it was causing more problems with Google Image Search than it was solving.
+	//NSString* searchSize = [dict objectForKey:@"SearchSize"];
+	NSString *searchSize = @"";
 		
 	GoogleSearchParamItem *item = [[GoogleSearchParamItem alloc] initWithIdentifier:identifier enabled:isEnabled type:[GoogleSearchParamItem getType:searchType] keyword:keyword minSize:[SearchParamItem getMinSize:minSize] searchSize:searchSize startingPosition:startingPosition];
 	return [item autorelease];

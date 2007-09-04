@@ -144,7 +144,7 @@
 	AGRegex *regexURLS = [[[AGRegex alloc] initWithPattern:lookupURLS options:AGRegexLazy|AGRegexCaseInsensitive string:sdata] autorelease]; 
 	NSArray *matchesURLS = [regexURLS findAllInString];
 	
-	NSString *lookupSizes = @"(\\d*) x (\\d*) pixels - (\\d*)k";
+	NSString *lookupSizes = @"(\\d*) x (\\d*) - (\\d*)k";
 	AGRegex *regexSizes = [[[AGRegex alloc] initWithPattern:lookupSizes options:AGRegexLazy|AGRegexCaseInsensitive string:sdata] autorelease];
 	NSArray *matchesSizes = [regexSizes findAllInString];
 	
