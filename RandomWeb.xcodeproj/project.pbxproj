@@ -182,23 +182,6 @@
 		4FF6494307C7EB1000DA6B69 /* AdvSettingsDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FF6494107C7EB1000DA6B69 /* AdvSettingsDataSource.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXBuildStyle section */
-		4F2DB532074BD19A0039BE82 /* Development */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = Development;
-		};
-		4F2DB533074BD19A0039BE82 /* Deployment */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = YES;
-			};
-			name = Deployment;
-		};
-/* End PBXBuildStyle section */
-
 /* Begin PBXFileReference section */
 		4F07D32E080DF9B2008BBBED /* URLSearchParamItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLSearchParamItem.h; sourceTree = "<group>"; };
 		4F07D32F080DF9B2008BBBED /* URLSearchParamItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URLSearchParamItem.m; sourceTree = "<group>"; };
@@ -301,7 +284,7 @@
 		4FE67419083FDBF90092F595 /* ScreenSaverMainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScreenSaverMainView.h; sourceTree = "<group>"; };
 		4FE6741A083FDBF90092F595 /* ScreenSaverMainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScreenSaverMainView.m; sourceTree = "<group>"; };
 		4FE67442083FDFC00092F595 /* RandomWebNOGL.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RandomWebNOGL.saver; sourceTree = BUILT_PRODUCTS_DIR; };
-		4FE67443083FDFC00092F595 /* RandomWebNOGL-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "RandomWebNOGL-Info.plist"; sourceTree = "<group>"; };
+		4FE67443083FDFC00092F595 /* RandomWebNOGL-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RandomWebNOGL-Info.plist"; sourceTree = "<group>"; };
 		4FF6493407C7EA4600DA6B69 /* SettingsNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsNode.h; sourceTree = "<group>"; };
 		4FF6493507C7EA4600DA6B69 /* SettingsNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsNode.m; sourceTree = "<group>"; };
 		4FF6494007C7EB1000DA6B69 /* AdvSettingsDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdvSettingsDataSource.h; sourceTree = "<group>"; };
@@ -570,66 +553,11 @@
 			);
 			buildRules = (
 			);
-			buildSettings = {
-				GCC_DEBUGGING_SYMBOLS = default;
-				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_PRECOMPILE_PREFIX_HEADER = NO;
-				GCC_PREFIX_HEADER = "";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					SUPPORT_UTF8,
-					LOG,
-					NO_TCL,
-				);
-				GCC_WARN_ABOUT_POINTER_SIGNEDNESS = NO;
-				INFOPLIST_FILE = "RandomWeb-Info.plist";
-				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Screen Savers";
-				LIBRARY_STYLE = BUNDLE;
-				OTHER_CFLAGS = "";
-				OTHER_CPLUSPLUSFLAGS = "";
-				OTHER_LDFLAGS = (
-					"-framework",
-					Foundation,
-					"-framework",
-					AppKit,
-				);
-				OTHER_REZFLAGS = "";
-				PREBINDING = YES;
-				PRODUCT_NAME = RandomWeb;
-				SECTORDER_FLAGS = "";
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-				);
-				WRAPPER_EXTENSION = saver;
-			};
 			dependencies = (
 			);
 			name = RandomWeb;
 			productName = "RandomWeb Screensaver";
 			productReference = 4F2DB57E074BD42E0039BE82 /* RandomWeb.saver */;
-			productSettingsXML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
-<!DOCTYPE plist PUBLIC \"-//Apple Computer//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">
-<plist version=\"1.0\">
-<dict>
-	<key>CFBundleDevelopmentRegion</key>
-	<string>English</string>
-	<key>CFBundleExecutable</key>
-	<string>RandomWeb Screensaver</string>
-	<key>CFBundleIdentifier</key>
-	<string>com.yourcompany.RandomWeb_Screensaver</string>
-	<key>CFBundleInfoDictionaryVersion</key>
-	<string>6.0</string>
-	<key>CFBundlePackageType</key>
-	<string>APPL</string>
-	<key>CFBundleSignature</key>
-	<string>????</string>
-	<key>CFBundleVersion</key>
-	<string>1.0</string>
-</dict>
-</plist>
-";
 			productType = "com.apple.product-type.bundle";
 		};
 		4FE67441083FDFC00092F595 /* RandomWebNOGL */ = {
@@ -642,65 +570,11 @@
 			);
 			buildRules = (
 			);
-			buildSettings = {
-				GCC_ALTIVEC_EXTENSIONS = NO;
-				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_MODEL_TUNING = G4;
-				GCC_PRECOMPILE_PREFIX_HEADER = NO;
-				GCC_PREFIX_HEADER = "";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					SUPPORT_UTF8,
-					NO_TCL,
-				);
-				GCC_WARN_ABOUT_POINTER_SIGNEDNESS = NO;
-				INFOPLIST_FILE = "RandomWebNOGL-Info.plist";
-				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Screen Savers";
-				LIBRARY_STYLE = BUNDLE;
-				OTHER_CFLAGS = "";
-				OTHER_LDFLAGS = (
-					"-framework",
-					Foundation,
-					"-framework",
-					AppKit,
-				);
-				OTHER_REZFLAGS = "";
-				PREBINDING = YES;
-				PRODUCT_NAME = RandomWebNOGL;
-				SECTORDER_FLAGS = "";
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-				);
-				WRAPPER_EXTENSION = saver;
-			};
 			dependencies = (
 			);
 			name = RandomWebNOGL;
 			productName = Untitled;
 			productReference = 4FE67442083FDFC00092F595 /* RandomWebNOGL.saver */;
-			productSettingsXML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
-<!DOCTYPE plist PUBLIC \"-//Apple Computer//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">
-<plist version=\"1.0\">
-<dict>
-	<key>CFBundleDevelopmentRegion</key>
-	<string>English</string>
-	<key>CFBundleExecutable</key>
-	<string>Untitled</string>
-	<key>CFBundleIdentifier</key>
-	<string>com.yourcompany.Untitled</string>
-	<key>CFBundleInfoDictionaryVersion</key>
-	<string>6.0</string>
-	<key>CFBundlePackageType</key>
-	<string>APPL</string>
-	<key>CFBundleSignature</key>
-	<string>????</string>
-	<key>CFBundleVersion</key>
-	<string>1.0</string>
-</dict>
-</plist>
-";
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -709,16 +583,12 @@
 		4F2DB534074BD19A0039BE82 /* Project object */ = {
 			isa = PBXProject;
 			buildConfigurationList = 5260EB310C8CADB000159E2D /* Build configuration list for PBXProject "RandomWeb" */;
-			buildSettings = {
-			};
-			buildStyles = (
-				4F2DB532074BD19A0039BE82 /* Development */,
-				4F2DB533074BD19A0039BE82 /* Deployment */,
-			);
+			compatibilityVersion = "Xcode 2.4";
 			hasScannedForEncodings = 0;
 			mainGroup = 4F2DB530074BD1990039BE82;
 			productRefGroup = 4F2DB57F074BD42E0039BE82 /* Products */;
 			projectDirPath = "";
+			projectRoot = "";
 			targets = (
 				4F2DB57D074BD42E0039BE82 /* RandomWeb */,
 				4FE67441083FDFC00092F595 /* RandomWebNOGL */,
@@ -969,6 +839,8 @@
 		5260EB2B0C8CADB000159E2D /* Deployment */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1 = "ppc i386";
 				COPY_PHASE_STRIP = YES;
 				GCC_DEBUGGING_SYMBOLS = default;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
@@ -995,6 +867,7 @@
 				OTHER_REZFLAGS = "";
 				PREBINDING = YES;
 				PRODUCT_NAME = RandomWeb;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
 				SECTORDER_FLAGS = "";
 				WARNING_CFLAGS = (
 					"-Wmost",
