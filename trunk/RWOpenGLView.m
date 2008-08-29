@@ -332,7 +332,7 @@ static double SHOW_HELP_TIME = 10.0;
 				[statusStringTex drawAtPoint:NSMakePoint(x, y)];
 			}
 			
-			if (fabs([showHelpStart timeIntervalSinceNow]) < SHOW_HELP_TIME) {
+			if (showHelpStart && fabs([showHelpStart timeIntervalSinceNow]) < SHOW_HELP_TIME) {
 				float x = floor (width - [helpStringTex frameSize].width) - 5;
 				float y = 50;
 				[helpStringTex drawAtPoint:NSMakePoint(x, y)];
